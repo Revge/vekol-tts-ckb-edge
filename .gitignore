@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+model.onnx
+out*.wav
+*.tar.gz
+.DS_Store

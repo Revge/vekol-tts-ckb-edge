@@ -1,0 +1,408 @@
+creating repo (private)...
+uploading model card as README.md...
+uploaded vocab.json
+uploaded config.json
+uploaded tokenizer_config.json
+uploaded special_tokens_map.json
+uploaded added_tokens.json
+uploading model.onnx (114MB)...
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  model.onnx                  :   1%|          | 1.13MB /  114MB            [A[A
+
+  model.onnx                  :   1%|          | 1.13MB /  114MB            [A[AProcessing Files (0 / 1)      :   1%|          | 1.13MB /  114MB,  106kB/s  
+New Data Upload               :   1%|          | 1.13MB /  114MB,  106kB/s  [A
+
+  model.onnx                  :   2%|▏         | 2.25MB /  114MB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 2.25MB /  114MB,  203kB/s  
+New Data Upload               :   2%|▏         | 2.25MB /  114MB,  203kB/s  [A
+
+  model.onnx                  :   3%|▎         | 3.39MB /  114MB            [A[AProcessing Files (0 / 1)      :   3%|▎         | 3.39MB /  114MB,  303kB/s  
+New Data Upload               :   3%|▎         | 3.39MB /  114MB,  303kB/s  [A
+
+  model.onnx                  :   4%|▍         | 4.51MB /  114MB            [A[AProcessing Files (0 / 1)      :   4%|▍         | 4.51MB /  114MB,  399kB/s  
+New Data Upload               :   4%|▍         | 4.51MB /  114MB,  399kB/s  [A
+
+  model.onnx                  :   5%|▍         | 5.64MB /  114MB            [A[AProcessing Files (0 / 1)      :   5%|▍         | 5.64MB /  114MB,  493kB/s  
+New Data Upload               :   5%|▍         | 5.64MB /  114MB,  493kB/s  [A
+
+  model.onnx                  :   5%|▌         | 6.20MB /  114MB            [A[AProcessing Files (0 / 1)      :   5%|▌         | 6.20MB /  114MB,  533kB/s  
+New Data Upload               :   5%|▌         | 6.20MB /  114MB,  533kB/s  [A
+
+  model.onnx                  :   6%|▌         | 6.77MB /  114MB            [A[AProcessing Files (0 / 1)      :   6%|▌         | 6.77MB /  114MB,  572kB/s  
+New Data Upload               :   6%|▌         | 6.77MB /  114MB,  572kB/s  [A
+
+  model.onnx                  :   8%|▊         | 9.01MB /  114MB            [A[AProcessing Files (0 / 1)      :   8%|▊         | 9.01MB /  114MB,  746kB/s  
+New Data Upload               :   8%|▊         | 9.01MB /  114MB,  746kB/s  [A
+
+  model.onnx                  :   8%|▊         | 9.57MB /  114MB            [A[AProcessing Files (0 / 1)      :   8%|▊         | 9.57MB /  114MB,  779kB/s  
+New Data Upload               :   8%|▊         | 9.57MB /  114MB,  779kB/s  [A
+
+  model.onnx                  :   9%|▉         | 10.1MB /  114MB            [A[AProcessing Files (0 / 1)      :   9%|▉         | 10.1MB /  114MB,  717kB/s  
+New Data Upload               :   9%|▉         | 10.1MB /  114MB,  717kB/s  [A
+
+  model.onnx                  :  10%|█         | 11.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  10%|█         | 11.8MB /  114MB,  845kB/s  
+New Data Upload               :  10%|█         | 11.8MB /  114MB,  845kB/s  [A
+
+  model.onnx                  :  11%|█         | 12.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  11%|█         | 12.4MB /  114MB,  875kB/s  
+New Data Upload               :  11%|█         | 12.4MB /  114MB,  875kB/s  [A
+
+  model.onnx                  :  12%|█▏        | 13.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  12%|█▏        | 13.5MB /  114MB,  952kB/s  
+New Data Upload               :  12%|█▏        | 13.5MB /  114MB,  952kB/s  [A
+
+  model.onnx                  :  13%|█▎        | 15.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  13%|█▎        | 15.2MB /  114MB,  978kB/s  
+New Data Upload               :  13%|█▎        | 15.2MB /  114MB,  978kB/s  [A
+
+  model.onnx                  :  14%|█▍        | 15.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  14%|█▍        | 15.7MB /  114MB, 1.00MB/s  
+New Data Upload               :  14%|█▍        | 15.7MB /  114MB, 1.00MB/s  [A
+
+  model.onnx                  :  15%|█▍        | 16.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  15%|█▍        | 16.9MB /  114MB, 1.08MB/s  
+New Data Upload               :  15%|█▍        | 16.9MB /  114MB, 1.08MB/s  [A
+
+  model.onnx                  :  15%|█▌        | 17.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  15%|█▌        | 17.4MB /  114MB, 1.10MB/s  
+New Data Upload               :  15%|█▌        | 17.4MB /  114MB, 1.10MB/s  [A
+
+  model.onnx                  :  16%|█▌        | 18.0MB /  114MB            [A[AProcessing Files (0 / 1)      :  16%|█▌        | 18.0MB /  114MB, 1.12MB/s  
+New Data Upload               :  16%|█▌        | 18.0MB /  114MB, 1.12MB/s  [A
+
+  model.onnx                  :  16%|█▌        | 18.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  16%|█▌        | 18.6MB /  114MB, 1.15MB/s  
+New Data Upload               :  16%|█▌        | 18.6MB /  114MB, 1.15MB/s  [A
+
+  model.onnx                  :  17%|█▋        | 19.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  17%|█▋        | 19.1MB /  114MB, 1.17MB/s  
+New Data Upload               :  17%|█▋        | 19.1MB /  114MB, 1.17MB/s  [A
+
+  model.onnx                  :  17%|█▋        | 19.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  17%|█▋        | 19.7MB /  114MB, 1.19MB/s  
+New Data Upload               :  17%|█▋        | 19.7MB /  114MB, 1.19MB/s  [A
+
+  model.onnx                  :  18%|█▊        | 20.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  18%|█▊        | 20.8MB /  114MB, 1.26MB/s  
+New Data Upload               :  18%|█▊        | 20.8MB /  114MB, 1.26MB/s  [A
+
+  model.onnx                  :  19%|█▉        | 21.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  19%|█▉        | 21.9MB /  114MB, 1.30MB/s  
+New Data Upload               :  19%|█▉        | 21.9MB /  114MB, 1.30MB/s  [A
+
+  model.onnx                  :  20%|█▉        | 22.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  20%|█▉        | 22.5MB /  114MB, 1.32MB/s  
+New Data Upload               :  20%|█▉        | 22.5MB /  114MB, 1.32MB/s  [A
+
+  model.onnx                  :  20%|██        | 23.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  20%|██        | 23.1MB /  114MB, 1.33MB/s  
+New Data Upload               :  20%|██        | 23.1MB /  114MB, 1.33MB/s  [A
+
+  model.onnx                  :  21%|██        | 23.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  21%|██        | 23.6MB /  114MB, 1.35MB/s  
+New Data Upload               :  21%|██        | 23.6MB /  114MB, 1.35MB/s  [A
+
+  model.onnx                  :  21%|██        | 24.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  21%|██        | 24.2MB /  114MB, 1.37MB/s  
+New Data Upload               :  21%|██        | 24.2MB /  114MB, 1.37MB/s  [A
+
+  model.onnx                  :  22%|██▏       | 24.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  22%|██▏       | 24.7MB /  114MB, 1.39MB/s  
+New Data Upload               :  22%|██▏       | 24.7MB /  114MB, 1.39MB/s  [A
+
+  model.onnx                  :  22%|██▏       | 25.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  22%|██▏       | 25.3MB /  114MB, 1.41MB/s  
+New Data Upload               :  22%|██▏       | 25.3MB /  114MB, 1.41MB/s  [A
+
+  model.onnx                  :  23%|██▎       | 25.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  23%|██▎       | 25.9MB /  114MB, 1.42MB/s  
+New Data Upload               :  23%|██▎       | 25.9MB /  114MB, 1.42MB/s  [A
+
+  model.onnx                  :  25%|██▍       | 28.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  25%|██▍       | 28.1MB /  114MB, 1.46MB/s  
+New Data Upload               :  25%|██▍       | 28.1MB /  114MB, 1.46MB/s  [A
+
+  model.onnx                  :  26%|██▌       | 29.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  26%|██▌       | 29.8MB /  114MB, 1.57MB/s  
+New Data Upload               :  26%|██▌       | 29.8MB /  114MB, 1.57MB/s  [A
+
+  model.onnx                  :  27%|██▋       | 30.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  27%|██▋       | 30.4MB /  114MB, 1.52MB/s  
+New Data Upload               :  27%|██▋       | 30.4MB /  114MB, 1.52MB/s  [A
+
+  model.onnx                  :  27%|██▋       | 30.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  27%|██▋       | 30.9MB /  114MB, 1.51MB/s  
+New Data Upload               :  27%|██▋       | 30.9MB /  114MB, 1.51MB/s  [A
+
+  model.onnx                  :  29%|██▊       | 32.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  29%|██▊       | 32.6MB /  114MB, 1.61MB/s  
+New Data Upload               :  29%|██▊       | 32.6MB /  114MB, 1.61MB/s  [A
+
+  model.onnx                  :  30%|██▉       | 33.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  30%|██▉       | 33.7MB /  114MB, 1.66MB/s  
+New Data Upload               :  30%|██▉       | 33.7MB /  114MB, 1.66MB/s  [A
+
+  model.onnx                  :  30%|███       | 34.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  30%|███       | 34.3MB /  114MB, 1.64MB/s  
+New Data Upload               :  30%|███       | 34.3MB /  114MB, 1.64MB/s  [A
+
+  model.onnx                  :  31%|███       | 34.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  31%|███       | 34.9MB /  114MB, 1.62MB/s  
+New Data Upload               :  31%|███       | 34.9MB /  114MB, 1.62MB/s  [A
+
+  model.onnx                  :  33%|███▎      | 37.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  33%|███▎      | 37.7MB /  114MB, 1.77MB/s  
+New Data Upload               :  33%|███▎      | 37.7MB /  114MB, 1.77MB/s  [A
+
+  model.onnx                  :  33%|███▎      | 38.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  33%|███▎      | 38.2MB /  114MB, 1.75MB/s  
+New Data Upload               :  33%|███▎      | 38.2MB /  114MB, 1.75MB/s  [A
+
+  model.onnx                  :  34%|███▍      | 38.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  34%|███▍      | 38.8MB /  114MB, 1.73MB/s  
+New Data Upload               :  34%|███▍      | 38.8MB /  114MB, 1.73MB/s  [A
+
+  model.onnx                  :  34%|███▍      | 39.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  34%|███▍      | 39.4MB /  114MB, 1.74MB/s  
+New Data Upload               :  34%|███▍      | 39.4MB /  114MB, 1.74MB/s  [A
+
+  model.onnx                  :  36%|███▌      | 41.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  36%|███▌      | 41.1MB /  114MB, 1.83MB/s  
+New Data Upload               :  36%|███▌      | 41.1MB /  114MB, 1.83MB/s  [A
+
+  model.onnx                  :  36%|███▋      | 41.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  36%|███▋      | 41.6MB /  114MB, 1.84MB/s  
+New Data Upload               :  36%|███▋      | 41.6MB /  114MB, 1.84MB/s  [A
+
+  model.onnx                  :  37%|███▋      | 42.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  37%|███▋      | 42.7MB /  114MB, 1.89MB/s  
+New Data Upload               :  37%|███▋      | 42.7MB /  114MB, 1.89MB/s  [A
+
+  model.onnx                  :  39%|███▉      | 44.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  39%|███▉      | 44.4MB /  114MB, 1.84MB/s  
+New Data Upload               :  39%|███▉      | 44.4MB /  114MB, 1.84MB/s  [A
+
+  model.onnx                  :  40%|████      | 46.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  40%|████      | 46.1MB /  114MB, 1.94MB/s  
+New Data Upload               :  40%|████      | 46.1MB /  114MB, 1.94MB/s  [A
+
+  model.onnx                  :  41%|████▏     | 47.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  41%|████▏     | 47.2MB /  114MB, 1.95MB/s  
+New Data Upload               :  41%|████▏     | 47.2MB /  114MB, 1.95MB/s  [A
+
+  model.onnx                  :  43%|████▎     | 48.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  43%|████▎     | 48.9MB /  114MB, 1.90MB/s  
+New Data Upload               :  43%|████▎     | 48.9MB /  114MB, 1.90MB/s  [A
+
+  model.onnx                  :  44%|████▍     | 50.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  44%|████▍     | 50.6MB /  114MB, 1.95MB/s  
+New Data Upload               :  44%|████▍     | 50.6MB /  114MB, 1.95MB/s  [A
+
+  model.onnx                  :  45%|████▌     | 51.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  45%|████▌     | 51.8MB /  114MB, 1.80MB/s  
+New Data Upload               :  45%|████▌     | 51.8MB /  114MB, 1.80MB/s  [A
+
+  model.onnx                  :  47%|████▋     | 53.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  47%|████▋     | 53.4MB /  114MB, 1.89MB/s  
+New Data Upload               :  47%|████▋     | 53.4MB /  114MB, 1.89MB/s  [A
+
+  model.onnx                  :  48%|████▊     | 54.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  48%|████▊     | 54.6MB /  114MB, 1.90MB/s  
+New Data Upload               :  48%|████▊     | 54.6MB /  114MB, 1.90MB/s  [A
+
+  model.onnx                  :  49%|████▊     | 55.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  49%|████▊     | 55.7MB /  114MB, 1.92MB/s  
+New Data Upload               :  49%|████▊     | 55.7MB /  114MB, 1.92MB/s  [A
+
+  model.onnx                  :  49%|████▉     | 56.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  49%|████▉     | 56.2MB /  114MB, 1.89MB/s  
+New Data Upload               :  49%|████▉     | 56.2MB /  114MB, 1.89MB/s  [A
+
+  model.onnx                  :  50%|████▉     | 56.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  50%|████▉     | 56.8MB /  114MB, 1.89MB/s  
+New Data Upload               :  50%|████▉     | 56.8MB /  114MB, 1.89MB/s  [A
+
+  model.onnx                  :  50%|█████     | 57.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  50%|█████     | 57.4MB /  114MB, 1.90MB/s  
+New Data Upload               :  50%|█████     | 57.4MB /  114MB, 1.90MB/s  [A
+
+  model.onnx                  :  51%|█████     | 58.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  51%|█████     | 58.5MB /  114MB, 1.91MB/s  
+New Data Upload               :  51%|█████     | 58.5MB /  114MB, 1.91MB/s  [A
+
+  model.onnx                  :  52%|█████▏    | 59.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  52%|█████▏    | 59.6MB /  114MB, 1.93MB/s  
+New Data Upload               :  52%|█████▏    | 59.6MB /  114MB, 1.93MB/s  [A
+
+  model.onnx                  :  53%|█████▎    | 60.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  53%|█████▎    | 60.2MB /  114MB, 1.93MB/s  
+New Data Upload               :  53%|█████▎    | 60.2MB /  114MB, 1.93MB/s  [A
+
+  model.onnx                  :  53%|█████▎    | 60.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  53%|█████▎    | 60.7MB /  114MB, 1.94MB/s  
+New Data Upload               :  53%|█████▎    | 60.7MB /  114MB, 1.94MB/s  [A
+
+  model.onnx                  :  54%|█████▎    | 61.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  54%|█████▎    | 61.3MB /  114MB, 1.94MB/s  
+New Data Upload               :  54%|█████▎    | 61.3MB /  114MB, 1.94MB/s  [A
+
+  model.onnx                  :  55%|█████▍    | 62.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  55%|█████▍    | 62.4MB /  114MB, 1.99MB/s  
+New Data Upload               :  55%|█████▍    | 62.4MB /  114MB, 1.99MB/s  [A
+
+  model.onnx                  :  56%|█████▌    | 63.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  56%|█████▌    | 63.6MB /  114MB, 2.00MB/s  
+New Data Upload               :  56%|█████▌    | 63.6MB /  114MB, 2.00MB/s  [A
+
+  model.onnx                  :  57%|█████▋    | 64.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  57%|█████▋    | 64.7MB /  114MB, 2.04MB/s  
+New Data Upload               :  57%|█████▋    | 64.7MB /  114MB, 2.04MB/s  [A
+
+  model.onnx                  :  57%|█████▋    | 65.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  57%|█████▋    | 65.2MB /  114MB, 2.01MB/s  
+New Data Upload               :  57%|█████▋    | 65.2MB /  114MB, 2.01MB/s  [A
+
+  model.onnx                  :  58%|█████▊    | 65.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  58%|█████▊    | 65.8MB /  114MB, 2.02MB/s  
+New Data Upload               :  58%|█████▊    | 65.8MB /  114MB, 2.02MB/s  [A
+
+  model.onnx                  :  58%|█████▊    | 66.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  58%|█████▊    | 66.4MB /  114MB, 2.02MB/s  
+New Data Upload               :  58%|█████▊    | 66.4MB /  114MB, 2.02MB/s  [A
+
+  model.onnx                  :  59%|█████▊    | 66.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  59%|█████▊    | 66.9MB /  114MB, 1.99MB/s  
+New Data Upload               :  59%|█████▊    | 66.9MB /  114MB, 1.99MB/s  [A
+
+  model.onnx                  :  59%|█████▉    | 67.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  59%|█████▉    | 67.5MB /  114MB, 1.99MB/s  
+New Data Upload               :  59%|█████▉    | 67.5MB /  114MB, 1.99MB/s  [A
+
+  model.onnx                  :  60%|██████    | 68.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  60%|██████    | 68.6MB /  114MB, 2.04MB/s  
+New Data Upload               :  60%|██████    | 68.6MB /  114MB, 2.04MB/s  [A
+
+  model.onnx                  :  61%|██████    | 69.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  61%|██████    | 69.2MB /  114MB, 2.04MB/s  
+New Data Upload               :  61%|██████    | 69.2MB /  114MB, 2.04MB/s  [A
+
+  model.onnx                  :  62%|██████▏   | 70.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  62%|██████▏   | 70.3MB /  114MB, 2.09MB/s  
+New Data Upload               :  62%|██████▏   | 70.3MB /  114MB, 2.09MB/s  [A
+
+  model.onnx                  :  63%|██████▎   | 72.0MB /  114MB            [A[AProcessing Files (0 / 1)      :  63%|██████▎   | 72.0MB /  114MB, 2.03MB/s  
+New Data Upload               :  63%|██████▎   | 72.0MB /  114MB, 2.03MB/s  [A
+
+  model.onnx                  :  64%|██████▍   | 73.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  64%|██████▍   | 73.1MB /  114MB, 2.04MB/s  
+New Data Upload               :  64%|██████▍   | 73.1MB /  114MB, 2.04MB/s  [A
+
+  model.onnx                  :  64%|██████▍   | 73.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  64%|██████▍   | 73.7MB /  114MB, 2.00MB/s  
+New Data Upload               :  64%|██████▍   | 73.7MB /  114MB, 2.00MB/s  [A
+
+  model.onnx                  :  65%|██████▍   | 74.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  65%|██████▍   | 74.2MB /  114MB, 2.01MB/s  
+New Data Upload               :  65%|██████▍   | 74.2MB /  114MB, 2.01MB/s  [A
+
+  model.onnx                  :  65%|██████▌   | 74.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  65%|██████▌   | 74.8MB /  114MB, 2.01MB/s  
+New Data Upload               :  65%|██████▌   | 74.8MB /  114MB, 2.01MB/s  [A
+
+  model.onnx                  :  66%|██████▋   | 75.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  66%|██████▋   | 75.9MB /  114MB, 2.02MB/s  
+New Data Upload               :  66%|██████▋   | 75.9MB /  114MB, 2.02MB/s  [A
+
+  model.onnx                  :  67%|██████▋   | 76.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  67%|██████▋   | 76.5MB /  114MB, 1.96MB/s  
+New Data Upload               :  67%|██████▋   | 76.5MB /  114MB, 1.96MB/s  [A
+
+  model.onnx                  :  67%|██████▋   | 77.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  67%|██████▋   | 77.1MB /  114MB, 1.96MB/s  
+New Data Upload               :  67%|██████▋   | 77.1MB /  114MB, 1.96MB/s  [A
+
+  model.onnx                  :  68%|██████▊   | 77.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  68%|██████▊   | 77.6MB /  114MB, 1.97MB/s  
+New Data Upload               :  68%|██████▊   | 77.6MB /  114MB, 1.97MB/s  [A
+
+  model.onnx                  :  69%|██████▉   | 78.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  69%|██████▉   | 78.7MB /  114MB, 1.94MB/s  
+New Data Upload               :  69%|██████▉   | 78.7MB /  114MB, 1.94MB/s  [A
+
+  model.onnx                  :  69%|██████▉   | 79.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  69%|██████▉   | 79.3MB /  114MB, 1.95MB/s  
+New Data Upload               :  69%|██████▉   | 79.3MB /  114MB, 1.95MB/s  [A
+
+  model.onnx                  :  70%|██████▉   | 79.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  70%|██████▉   | 79.9MB /  114MB, 1.92MB/s  
+New Data Upload               :  70%|██████▉   | 79.9MB /  114MB, 1.92MB/s  [A
+
+  model.onnx                  :  70%|███████   | 80.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  70%|███████   | 80.4MB /  114MB, 1.93MB/s  
+New Data Upload               :  70%|███████   | 80.4MB /  114MB, 1.93MB/s  [A
+
+  model.onnx                  :  71%|███████   | 81.0MB /  114MB            [A[AProcessing Files (0 / 1)      :  71%|███████   | 81.0MB /  114MB, 1.90MB/s  
+New Data Upload               :  71%|███████   | 81.0MB /  114MB, 1.90MB/s  [A
+
+  model.onnx                  :  71%|███████▏  | 81.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  71%|███████▏  | 81.6MB /  114MB, 1.87MB/s  
+New Data Upload               :  71%|███████▏  | 81.6MB /  114MB, 1.87MB/s  [A
+
+  model.onnx                  :  72%|███████▏  | 82.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  72%|███████▏  | 82.1MB /  114MB, 1.85MB/s  
+New Data Upload               :  72%|███████▏  | 82.1MB /  114MB, 1.85MB/s  [A
+
+  model.onnx                  :  72%|███████▏  | 82.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  72%|███████▏  | 82.7MB /  114MB, 1.82MB/s  
+New Data Upload               :  72%|███████▏  | 82.7MB /  114MB, 1.82MB/s  [A
+
+  model.onnx                  :  73%|███████▎  | 83.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  73%|███████▎  | 83.4MB /  114MB, 1.84MB/s  
+New Data Upload               :  73%|███████▎  | 83.4MB /  114MB, 1.84MB/s  [A
+
+  model.onnx                  :  74%|███████▎  | 84.0MB /  114MB            [A[AProcessing Files (0 / 1)      :  74%|███████▎  | 84.0MB /  114MB, 1.85MB/s  
+New Data Upload               :  74%|███████▎  | 84.0MB /  114MB, 1.85MB/s  [A
+
+  model.onnx                  :  74%|███████▍  | 84.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  74%|███████▍  | 84.6MB /  114MB, 1.86MB/s  
+New Data Upload               :  74%|███████▍  | 84.6MB /  114MB, 1.86MB/s  [A
+
+  model.onnx                  :  75%|███████▍  | 85.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  75%|███████▍  | 85.1MB /  114MB, 1.87MB/s  
+New Data Upload               :  75%|███████▍  | 85.1MB /  114MB, 1.87MB/s  [A
+
+  model.onnx                  :  75%|███████▌  | 85.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  75%|███████▌  | 85.7MB /  114MB, 1.87MB/s  
+New Data Upload               :  75%|███████▌  | 85.7MB /  114MB, 1.87MB/s  [A
+
+  model.onnx                  :  75%|███████▌  | 86.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  75%|███████▌  | 86.3MB /  114MB, 1.88MB/s  
+New Data Upload               :  75%|███████▌  | 86.3MB /  114MB, 1.88MB/s  [A
+
+  model.onnx                  :  76%|███████▌  | 86.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  76%|███████▌  | 86.8MB /  114MB, 1.89MB/s  
+New Data Upload               :  76%|███████▌  | 86.8MB /  114MB, 1.89MB/s  [A
+
+  model.onnx                  :  76%|███████▋  | 87.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  76%|███████▋  | 87.4MB /  114MB, 1.89MB/s  
+New Data Upload               :  76%|███████▋  | 87.4MB /  114MB, 1.89MB/s  [A
+
+  model.onnx                  :  77%|███████▋  | 88.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  77%|███████▋  | 88.5MB /  114MB, 1.81MB/s  
+New Data Upload               :  77%|███████▋  | 88.5MB /  114MB, 1.81MB/s  [A
+
+  model.onnx                  :  78%|███████▊  | 89.7MB /  114MB            [A[AProcessing Files (0 / 1)      :  78%|███████▊  | 89.7MB /  114MB, 1.86MB/s  
+New Data Upload               :  78%|███████▊  | 89.7MB /  114MB, 1.86MB/s  [A
+
+  model.onnx                  :  79%|███████▉  | 90.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  79%|███████▉  | 90.2MB /  114MB, 1.87MB/s  
+New Data Upload               :  79%|███████▉  | 90.2MB /  114MB, 1.87MB/s  [A
+
+  model.onnx                  :  79%|███████▉  | 90.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  79%|███████▉  | 90.8MB /  114MB, 1.87MB/s  
+New Data Upload               :  79%|███████▉  | 90.8MB /  114MB, 1.87MB/s  [A
+
+  model.onnx                  :  80%|███████▉  | 91.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  80%|███████▉  | 91.4MB /  114MB, 1.88MB/s  
+New Data Upload               :  80%|███████▉  | 91.4MB /  114MB, 1.88MB/s  [A
+
+  model.onnx                  :  81%|████████  | 92.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  81%|████████  | 92.5MB /  114MB, 1.93MB/s  
+New Data Upload               :  81%|████████  | 92.5MB /  114MB, 1.93MB/s  [A
+
+  model.onnx                  :  81%|████████▏ | 93.1MB /  114MB            [A[AProcessing Files (0 / 1)      :  81%|████████▏ | 93.1MB /  114MB, 1.93MB/s  
+New Data Upload               :  81%|████████▏ | 93.1MB /  114MB, 1.93MB/s  [A
+
+  model.onnx                  :  82%|████████▏ | 93.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  82%|████████▏ | 93.6MB /  114MB, 1.94MB/s  
+New Data Upload               :  82%|████████▏ | 93.6MB /  114MB, 1.94MB/s  [A
+
+  model.onnx                  :  83%|████████▎ | 94.8MB /  114MB            [A[AProcessing Files (0 / 1)      :  83%|████████▎ | 94.8MB /  114MB, 1.98MB/s  
+New Data Upload               :  83%|████████▎ | 94.8MB /  114MB, 1.98MB/s  [A
+
+  model.onnx                  :  83%|████████▎ | 95.4MB /  114MB            [A[AProcessing Files (0 / 1)      :  83%|████████▎ | 95.4MB /  114MB, 1.99MB/s  
+New Data Upload               :  83%|████████▎ | 95.4MB /  114MB, 1.99MB/s  [A
+
+  model.onnx                  :  84%|████████▍ | 95.9MB /  114MB            [A[AProcessing Files (0 / 1)      :  84%|████████▍ | 95.9MB /  114MB, 1.99MB/s  
+New Data Upload               :  84%|████████▍ | 95.9MB /  114MB, 1.99MB/s  [A
+
+  model.onnx                  :  84%|████████▍ | 96.5MB /  114MB            [A[AProcessing Files (0 / 1)      :  84%|████████▍ | 96.5MB /  114MB, 2.00MB/s  
+New Data Upload               :  84%|████████▍ | 96.5MB /  114MB, 2.00MB/s  [A
+
+  model.onnx                  :  85%|████████▌ | 97.6MB /  114MB            [A[AProcessing Files (0 / 1)      :  85%|████████▌ | 97.6MB /  114MB, 2.04MB/s  
+New Data Upload               :  85%|████████▌ | 97.6MB /  114MB, 2.04MB/s  [A
+
+  model.onnx                  :  86%|████████▌ | 98.2MB /  114MB            [A[AProcessing Files (0 / 1)      :  86%|████████▌ | 98.2MB /  114MB, 2.05MB/s  
+New Data Upload               :  86%|████████▌ | 98.2MB /  114MB, 2.05MB/s  [A
+
+  model.onnx                  :  87%|████████▋ | 99.3MB /  114MB            [A[AProcessing Files (0 / 1)      :  87%|████████▋ | 99.3MB /  114MB, 2.09MB/s  
+New Data Upload               :  87%|████████▋ | 99.3MB /  114MB, 2.09MB/s  [A
+
+  model.onnx                  :  88%|████████▊ |  100MB /  114MB            [A[AProcessing Files (0 / 1)      :  88%|████████▊ |  100MB /  114MB, 2.13MB/s  
+New Data Upload               :  88%|████████▊ |  100MB /  114MB, 2.13MB/s  [A
+
+  model.onnx                  :  88%|████████▊ |  101MB /  114MB            [A[AProcessing Files (0 / 1)      :  88%|████████▊ |  101MB /  114MB, 2.13MB/s  
+New Data Upload               :  88%|████████▊ |  101MB /  114MB, 2.13MB/s  [A
+
+  model.onnx                  :  89%|████████▉ |  102MB /  114MB            [A[AProcessing Files (0 / 1)      :  89%|████████▉ |  102MB /  114MB, 2.18MB/s  
+New Data Upload               :  89%|████████▉ |  102MB /  114MB, 2.18MB/s  [A
+
+  model.onnx                  :  90%|████████▉ |  103MB /  114MB            [A[AProcessing Files (0 / 1)      :  90%|████████▉ |  103MB /  114MB, 2.18MB/s  
+New Data Upload               :  90%|████████▉ |  103MB /  114MB, 2.18MB/s  [A
+
+  model.onnx                  :  91%|█████████ |  104MB /  114MB            [A[AProcessing Files (0 / 1)      :  91%|█████████ |  104MB /  114MB, 2.22MB/s  
+New Data Upload               :  91%|█████████ |  104MB /  114MB, 2.22MB/s  [A
+
+  model.onnx                  :  91%|█████████▏|  104MB /  114MB            [A[AProcessing Files (0 / 1)      :  91%|█████████▏|  104MB /  114MB, 2.22MB/s  
+New Data Upload               :  91%|█████████▏|  104MB /  114MB, 2.22MB/s  [A
+
+  model.onnx                  :  92%|█████████▏|  106MB /  114MB            [A[AProcessing Files (0 / 1)      :  92%|█████████▏|  106MB /  114MB, 2.26MB/s  
+New Data Upload               :  92%|█████████▏|  106MB /  114MB, 2.26MB/s  [A
+
+  model.onnx                  :  93%|█████████▎|  106MB /  114MB            [A[AProcessing Files (0 / 1)      :  93%|█████████▎|  106MB /  114MB, 2.26MB/s  
+New Data Upload               :  93%|█████████▎|  106MB /  114MB, 2.26MB/s  [A
+
+  model.onnx                  :  94%|█████████▍|  107MB /  114MB            [A[AProcessing Files (0 / 1)      :  94%|█████████▍|  107MB /  114MB, 2.30MB/s  
+New Data Upload               :  94%|█████████▍|  107MB /  114MB, 2.30MB/s  [A
+
+  model.onnx                  :  94%|█████████▍|  108MB /  114MB            [A[AProcessing Files (0 / 1)      :  94%|█████████▍|  108MB /  114MB, 2.30MB/s  
+New Data Upload               :  94%|█████████▍|  108MB /  114MB, 2.30MB/s  [A
+
+  model.onnx                  :  95%|█████████▌|  109MB /  114MB            [A[AProcessing Files (0 / 1)      :  95%|█████████▌|  109MB /  114MB, 2.34MB/s  
+New Data Upload               :  95%|█████████▌|  109MB /  114MB, 2.34MB/s  [A
+
+  model.onnx                  :  96%|█████████▋|  110MB /  114MB            [A[AProcessing Files (0 / 1)      :  96%|█████████▋|  110MB /  114MB, 2.38MB/s  
+New Data Upload               :  96%|█████████▋|  110MB /  114MB, 2.38MB/s  [A
+
+  model.onnx                  :  97%|█████████▋|  111MB /  114MB            [A[AProcessing Files (0 / 1)      :  97%|█████████▋|  111MB /  114MB, 2.37MB/s  
+New Data Upload               :  97%|█████████▋|  111MB /  114MB, 2.37MB/s  [A
+
+  model.onnx                  :  97%|█████████▋|  111MB /  114MB            [A[AProcessing Files (0 / 1)      :  97%|█████████▋|  111MB /  114MB, 2.37MB/s  
+New Data Upload               :  97%|█████████▋|  111MB /  114MB, 2.37MB/s  [A
+
+  model.onnx                  :  98%|█████████▊|  112MB /  114MB            [A[AProcessing Files (0 / 1)      :  98%|█████████▊|  112MB /  114MB, 2.41MB/s  
+New Data Upload               :  98%|█████████▊|  112MB /  114MB, 2.41MB/s  [A
+
+  model.onnx                  :  99%|█████████▉|  113MB /  114MB            [A[AProcessing Files (0 / 1)      :  99%|█████████▉|  113MB /  114MB, 2.41MB/s  
+New Data Upload               :  99%|█████████▉|  113MB /  114MB, 2.41MB/s  [A
+
+  model.onnx                  : 100%|█████████▉|  114MB /  114MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  114MB /  114MB, 2.44MB/s  
+New Data Upload               : 100%|█████████▉|  114MB /  114MB, 2.44MB/s  [A
+
+  model.onnx                  : 100%|██████████|  114MB /  114MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  114MB /  114MB, 2.14MB/s  
+New Data Upload               : 100%|██████████|  114MB /  114MB, 2.14MB/s  [AProcessing Files (1 / 1)      : 100%|██████████|  114MB /  114MB, 2.14MB/s  
+New Data Upload               : 100%|██████████|  114MB /  114MB, 2.14MB/s  
+  model.onnx                  : 100%|██████████|  114MB /  114MB            
+DONE -> https://huggingface.co/RevgeAI/vekol-tts-ckb-edge
