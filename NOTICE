@@ -3,21 +3,22 @@ Built by Darvan Shvan · © Revge
 
 This model is a derivative work built on:
 
-1. Meta MMS-TTS (facebook/mms-tts-kmr-script_arabic)
-   - Base model that was fine-tuned.
-   - License: CC-BY-NC 4.0  (https://creativecommons.org/licenses/by-nc/4.0/)
+1. Piper (OHF-Voice / piper1-gpl) — https://github.com/OHF-Voice/piper1-gpl
+   - The VITS training recipe and the base checkpoint that was fine-tuned.
+   - Training tooling licensed GPL-3.0. The shipped artifact is a standalone
+     ONNX graph (no Piper code at runtime).
 
 2. Vekol server TTS (Revge) — built on Coqui XTTS-v2
    - Revge's higher-quality server TTS model, used as the teacher to generate
-     the distillation training audio for this edge model.
+     the distillation training audio for this edge voice.
    - It is built on Coqui XTTS-v2, licensed under the Coqui Public Model License
      (CPML), non-commercial (https://coqui.ai/cpml) — so audio it produces, and
      models distilled from it, carry CPML / non-commercial terms.
 
-Because both upstream components are NON-COMMERCIAL, this derivative is released
+Because the distillation teacher is NON-COMMERCIAL, this derivative is released
 under CC-BY-NC 4.0 and must NOT be used commercially. For commercial use, retrain
-from a permissively-licensed base (e.g. a from-scratch VITS / Piper).
+from a permissively-licensed base on permissively-licensed audio.
 
 Training data: a private Sorani speech corpus (Revge) + audio distilled from the
 Vekol server (XTTS-based) teacher. The shipped edge model contains learned
-weights only (no XTTS code or weights; it runs standalone via ONNX).
+weights only (no XTTS code or weights; it runs standalone via ONNX Runtime).
