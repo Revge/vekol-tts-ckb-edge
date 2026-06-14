@@ -11,7 +11,7 @@
   "inference": {
     "noise_scale": 0.667,
     "length_scale": 1.0,
-    "noise_w": 0.0
+    "noise_w": 0.35
   },
   "phoneme_id_map": {
     "_": [

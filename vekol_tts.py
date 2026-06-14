@@ -23,7 +23,7 @@ from scipy.signal import stft, istft
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 HF_REPO = "RevgeAI/vekol-tts-ckb-edge"
-SCALES = [0.667, 1.0, 0.0]   # [noise_scale, length_scale, noise_w] — accurate, deterministic
+SCALES = [0.667, 1.0, 0.35]  # [noise_scale, length_scale, noise_w] — accurate + natural prosody
 
 
 def _asset(name):
@@ -97,38 +97,43 @@ def _ids(text):
 
 
 def _denoise(a, reduce_db=16):
-    """Spectral noise-gate: attenuate the vocoder's grainy background hiss."""
+    """Spectral noise-gate: attenuate the vocoder's grainy background hiss. Keeps the
+    audio at its natural scale (no per-chunk normalization) so stitched pieces match level."""
     _, _, Z = stft(a, SR, nperseg=1024, noverlap=768)
     mag, ph = np.abs(Z), np.angle(Z)
     noise = np.percentile(mag, 10, axis=1, keepdims=True)
     g = 10 ** (-reduce_db / 20)
     mask = g + (1 - g) * np.clip((mag / (noise + 1e-9) - 1.0) / 2.0, 0, 1)
     _, y = istft(mag * mask * np.exp(1j * ph), SR, nperseg=1024, noverlap=768)
-    return (y[:len(a)] / (np.abs(y).max() or 1))
+    return y[:len(a)]
 
 
-def _trim_tail(a, gap=0.35, tail=0.20, th=0.02):
-    """Drop a trailing blob sitting after a long silence (a hallucinated tail)."""
+def _trim(a, gap=0.35, edge=0.06, th=0.02):
+    """Drop a trailing blob after a long silence (a hallucinated tail) AND strip the
+    model's own leading/trailing silence, so stitched phrases don't lag. Keeps a short
+    `edge` pad on each side."""
     env = np.convolve(np.abs(a), np.ones(int(0.02 * SR)) / int(0.02 * SR), "same")
     loud = env > th * (env.max() or 1)
     if not loud.any():
         return a
-    last = np.where(loud)[0][-1]
+    first, last = np.where(loud)[0][[0, -1]]
     i = last
-    while i > 0:
+    while i > first:
         if not loud[i]:
             j = i
-            while j > 0 and not loud[j]:
+            while j > first and not loud[j]:
                 j -= 1
             if (i - j) / SR > gap:
                 last = j
             i = j
         else:
             i -= 1
-    return a[:min(len(a), last + int(tail * SR))]
+    lo = max(0, first - int(edge * SR))
+    hi = min(len(a), last + int(edge * SR))
+    return a[lo:hi]
 
 
-def speak(text, out="out.wav"):
+def _synth_one(text):
     ids = _ids(text)
     a = _sess.run(None, {
         "input": ids,
@@ -136,10 +141,25 @@ def speak(text, out="out.wav"):
         "scales": np.array(SCALES, dtype=np.float32),
         "sid": np.array([0], dtype=np.int64),
     })[0].squeeze()
-    a = a / (np.abs(a).max() or 1)
-    a = _trim_tail(_denoise(a))
-    scipy.io.wavfile.write(out, SR, (a * 32767).astype(np.int16))
-    return out, len(a) / SR
+    return _trim(_denoise(a))      # natural scale preserved for seamless stitching
+
+
+
+
+def speak(text, out="out.wav"):
+    # Read each SENTENCE in one natural pass (split only at sentence-final punctuation),
+    # so the prosody flows continuously within a sentence — no choppy mid-clause cuts.
+    # Sentences are joined by a short, natural pause. A whole paragraph reads in full.
+    sents = [s.strip() for s in re.split(r"[.؟!\n]+", text) if s.strip()] or [text.strip()]
+    gap = np.zeros(int(0.28 * SR), dtype=np.float32)
+    pieces = []
+    for s in sents:
+        pieces.append(_synth_one(s))     # natural scale; whole sentence in one pass
+        pieces.append(gap)
+    wav = np.concatenate(pieces[:-1]) if len(pieces) > 1 else pieces[0]
+    wav = wav / (np.abs(wav).max() or 1)     # single global normalize -> even loudness
+    scipy.io.wavfile.write(out, SR, (wav * 32767).astype(np.int16))
+    return out, len(wav) / SR
 
 
 if __name__ == "__main__":
