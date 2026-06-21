@@ -62,6 +62,10 @@ the Piper / sherpa-onnx runtimes.
 - The character map uses Sorani keheh `ک` (U+06A9) natively — no remapping needed. The
   helper folds typed variants (`ك`→`ک`, `ھ`→`ه`, `ة`→`ە`, `ى`→`ی`, hamza, ZWNJ/tatweel) so
   nothing is dropped, and reads numbers as Kurdish words.
+- Clear consonant articulation — including Sorani gaf `گ` and the rarer `ڤ` / `ح` / `غ`,
+  which are balanced in training so none is under-pronounced.
+- Long sentences are split at their commas automatically, so even paragraph-length input
+  reads cleanly with no trailing artifacts.
 - Output is 22.05 kHz: clear and accurate, intended for on-device/CPU use.
 - Runs through ONNX Runtime on many platforms (C++, Rust, Go, Android, iOS, Raspberry Pi,
   e.g. via sherpa-onnx or Piper).

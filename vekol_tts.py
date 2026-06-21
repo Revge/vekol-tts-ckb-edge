@@ -133,30 +133,71 @@ def _trim(a, gap=0.35, edge=0.06, th=0.02):
     return a[lo:hi]
 
 
-def _synth_one(text):
-    ids = _ids(text)
-    a = _sess.run(None, {
-        "input": ids,
-        "input_lengths": np.array([ids.shape[1]], dtype=np.int64),
-        "scales": np.array(SCALES, dtype=np.float32),
-        "sid": np.array([0], dtype=np.int64),
-    })[0].squeeze()
-    return _trim(_denoise(a))      # natural scale preserved for seamless stitching
+RATE = 0.075   # seconds of audio per character for this voice (empirical)
 
 
+def _synth_one(text, tries=2):
+    # VITS duration is stochastic, so a render can occasionally tack on a babble tail.
+    # Babble only ADDS length, so render up to `tries` times and keep the shortest; stop
+    # early once a render is within the length its character count predicts (no babble).
+    cap = len(text) * RATE + 1.2
+    best = None
+    for _ in range(tries):
+        ids = _ids(text)
+        a = _sess.run(None, {
+            "input": ids,
+            "input_lengths": np.array([ids.shape[1]], dtype=np.int64),
+            "scales": np.array(SCALES, dtype=np.float32),
+            "sid": np.array([0], dtype=np.int64),
+        })[0].squeeze()
+        a = _trim(_denoise(a))      # natural scale preserved for seamless stitching
+        if best is None or len(a) < len(best):
+            best = a
+        if len(best) / SR <= cap:   # clean -> no need to re-roll
+            break
+    return best
+
+
+
+
+_CLAUSE = re.compile(r"(?<=[،؛,;:])")   # split AFTER a comma/semicolon (keeps the mark)
+
+
+def _split_long(s, maxlen=70):
+    """A short sentence is read in one natural pass. A long one is broken at its commas
+    into clause-sized chunks <= maxlen. Each chunk is closed with a period so it reads as
+    a COMPLETE utterance: a chunk ending on a comma makes VITS expect more speech and
+    babble to fill it (a ~2s hallucinated tail) — a period tells the model to stop."""
+    if len(s) <= maxlen:
+        return [s]
+    out, buf = [], ""
+    for part in _CLAUSE.split(s):
+        if buf and len(buf) + len(part) > maxlen:
+            out.append(buf); buf = part
+        else:
+            buf += part
+    if buf.strip():
+        out.append(buf)
+    return [c.strip().rstrip("،؛,;:.؟!").strip() + "." for c in out if c.strip()]
 
 
 def speak(text, out="out.wav"):
-    # Read each SENTENCE in one natural pass (split only at sentence-final punctuation),
-    # so the prosody flows continuously within a sentence — no choppy mid-clause cuts.
-    # Sentences are joined by a short, natural pause. A whole paragraph reads in full.
+    # Split at sentence-final punctuation; long sentences are further split at commas so
+    # no single pass is long enough to trigger VITS's stochastic trailing hallucination.
+    # Sentences get a slightly longer pause than intra-sentence clause joins.
     sents = [s.strip() for s in re.split(r"[.؟!\n]+", text) if s.strip()] or [text.strip()]
-    gap = np.zeros(int(0.28 * SR), dtype=np.float32)
+    sent_gap = np.zeros(int(0.28 * SR), dtype=np.float32)
+    clause_gap = np.zeros(int(0.13 * SR), dtype=np.float32)   # short, natural comma pause
     pieces = []
-    for s in sents:
-        pieces.append(_synth_one(s))     # natural scale; whole sentence in one pass
-        pieces.append(gap)
-    wav = np.concatenate(pieces[:-1]) if len(pieces) > 1 else pieces[0]
+    for si, s in enumerate(sents):
+        chunks = _split_long(s)
+        for ci, c in enumerate(chunks):
+            pieces.append(_synth_one(c))                      # natural scale, short pass
+            if ci < len(chunks) - 1:
+                pieces.append(clause_gap)
+        if si < len(sents) - 1:
+            pieces.append(sent_gap)
+    wav = np.concatenate(pieces) if len(pieces) > 1 else pieces[0]
     wav = wav / (np.abs(wav).max() or 1)     # single global normalize -> even loudness
     scipy.io.wavfile.write(out, SR, (wav * 32767).astype(np.int16))
     return out, len(wav) / SR

@@ -82,6 +82,7 @@ the difference:
 |------|------|------|
 | ڕێڤگە کۆمپانیایەکی ژیریی دەستکردە لە شاری هەولێر… | `sample1.wav` | `sample1-hosted.wav` |
 | کوردستانم وڵاتێکە و نابێت بە چوار | `sample2.wav` | `sample2-hosted.wav` |
+| بەخێربێن بۆ ڤەکۆڵ… (paragraph) | `sample3-long.wav` | — |
 
 The edge files run fully offline on CPU. The hosted files are higher quality (24 kHz) —
 listen to them or try your own text at **[vekol.krd](https://vekol.krd)**.
@@ -113,8 +114,8 @@ the [Piper](https://github.com/OHF-Voice/piper1-gpl) runtime.
 ## Limitations
 
 Output is 22 kHz: clear and accurate, but a small on-device model, not studio quality. One
-voice, one language, neutral narration (no acted emotion). End sentences with `.`, `؟` or `!`
-for better phrasing.
+voice, one language, neutral narration (no acted emotion). Long sentences are split at their
+commas automatically, so paragraph-length text reads cleanly without trailing artifacts.
 
 For higher, studio-grade quality and expressive delivery, use the hosted version at
 [vekol.krd](https://vekol.krd).
